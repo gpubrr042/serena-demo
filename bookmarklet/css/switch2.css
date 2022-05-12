@@ -1,0 +1,16 @@
+*{
+    color : black !important;
+    background :  #a0db8e !important;
+}
+
+#annolet-header,#annolet-tools-menu,.annolet-menu-item{
+    background-color : #2b849c !important;
+}
+
+.annolet-menu-sub-item{
+    background : #fff !important;
+}
+
+.select-tools-menu{
+    background : #fff !important;
+}

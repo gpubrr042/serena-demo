@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Annolet..!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gl.githack.com/MSSoumya/serena-demo/-/raw/main/bookmarklet/css/bookmarklet.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+	<h2>SeRena! Semantic Annotation Tool</h2>
+	<p id="tagline">Tool to semantically renarrate the web page</p>
+      </div><br/>
+      <div class="row">
+	<div class="col-sm-12">
+	  <p id="instruction">Drag this link to the bookmarks tool bar</p>
+	  <a id="js-link" href="javascript:(function(){
+				if(!($=window.jQuery)){
+				script=document.createElement('script');
+				script.src='//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js';
+				script.onload=initAnnoLet;
+				document.getElementsByTagName('head')[0].appendChild(script);
+				}
+				else{
+				initAnnoLet();
+				}
+				function initAnnoLet(){
+				script=document.createElement('script');
+				script.src='https://gl.githack.com/MSSoumya/serena-demo/-/raw/main/bookmarklet/annolet.js?v='+parseInt(Math.random()*1000);
+				document.getElementsByTagName('head')[0].appendChild(script);
+				}
+				})()" >SeRena
+	  </a><br><br><br>
+	  <p style="font-size:150%;"> <a href="https://gitlab.com/MSSoumya/thesis-demo-ren-ui/-/blob/main/README.md">Here</a> are the instructions to run the bookmarklet </p>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

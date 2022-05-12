@@ -1,0 +1,105 @@
+body{
+    margin: 0 !important;
+}
+
+#annolet-container{
+    background-color: #2b849c !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    border-radius: 31px 31px 0px 0px !important;
+    z-index: 999999999999999999999999;
+    position: fixed !important;
+    box-shadow:  0 -17px 52px 0 !important;
+    height: 15% !important;
+    overflow: auto !important;
+    visibility: visible !important;
+}
+
+#annolet-header{
+    text-align:center !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-family: monospace !important;
+    font-size: 1.8em !important;
+    visibility: visible !important;
+}
+
+#annolet-tools-menu{
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width:100% !important;
+    overflow: auto !important;
+    white-space: nowrap !important;
+    font-family: monospace !important; 
+    font-weight: bold !important;
+    text-align:center;
+    visibility: visible !important;
+}
+
+.annolet-menu-item{
+    display: inline-block !important;
+    text-align: center !important;
+    padding: 0px 3px !important;
+    text-decoration: none !important;
+    visibility: visible !important;
+}
+
+#disable_list, #activezapper_list, #deactivezapper_list, #modify_list,
+#highlighter_list, #phonetics_list{
+    position: relative;
+    top:-24px;
+}
+
+
+.annolet-menu-sub-item{
+    background: #fff !important;
+    color: black !important;
+    border-color: black !important;
+    cursor: pointer !important;
+    width: 99% !important;
+    font-size: 0.8em !important;
+    border-style: solid !important;
+    border-width: medium !important;
+    text-shadow: inherit !important;
+    border-radius: inherit !important;
+    text-transform: uppercase !important;
+    padding: 2px 3px;
+    letter-spacing: inherit;
+    height: 29px !important;
+    font-weight: bold !important;
+    visibility: visible !important;
+}
+
+.annolet-menu-sub-item:hover{
+    background: black !important;
+    color: white !important;
+    border-color: white !important;
+    visibility: visible !important;
+}
+
+.select-tools-menu{
+    display: inline-block !important;
+    background-color: #fff !important;
+    color: black !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    visibility: visible !important;
+}
+
+.select-tools-menu:hover{
+    background: black !important;
+    color: white !important;
+    border-color: white !important;
+    visibility: visible !important;
+}
+
+
+
+
+
+
+
+
+

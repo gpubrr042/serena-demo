@@ -1,0 +1,34 @@
+.jumbotron{
+    background-color : black;
+}
+
+h2{
+    color : white !important;
+    font-weight : bold;
+    font-family : Georgia, serif;
+}
+
+#tagline{
+    color : white !important;
+    font-size : 150%;
+    margin-left :25%;
+}
+
+#instruction{
+    color : #FF4500 !important;
+    font-size : 143%;
+    font-weight : bold;
+}
+
+#js-link{
+    background : #000033;
+    color : white;
+    display : box;
+    padding : 10px;
+    text-decoration : none;
+    font-weight : bold;
+}
+
+#js-link:hover{
+    padding : 15px;
+}

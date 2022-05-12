@@ -1,0 +1,18 @@
+
+{
+  "css": {
+      "annolet" : "https://gl.githack.com/MSSoumya/thesis-demo-ren-ui/-/raw/main/annolet/css/annolet.css",
+      "Theme1"  : "https://gl.githack.com/MSSoumya/thesis-demo-ren-ui/-/raw/main/annolet/css/switch1.css",
+      "Theme2"  : "https://gl.githack.com/MSSoumya/thesis-demo-ren-ui/-/raw/main/annolet/css/switch2.css",
+      "Theme3"  : "https://gl.githack.com/MSSoumya/thesis-demo-ren-ui/-/raw/main/annolet/css/switch3.css"
+   },
+
+   "annolet-gui" : "https://gl.githack.com/MSSoumya/serena-demo/-/raw/main/bookmarklet/annolet-gui.js", 
+   
+   "api" : {
+      "phonetics-trans" : "http://127.0.0.1:5000/phonetic-trans",
+      "lang-trans" : "http://127.0.0.1:5000/language-translive",
+      "currency-conv" : "http://127.0.0.1:5000/currency-conversion",
+      "unit-conversion" : "http://127.0.0.1:5000/measurement-conversion"
+   }
+}
